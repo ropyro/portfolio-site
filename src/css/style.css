@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Tailwind v4 uses a clean, native CSS theme configuration */
+@theme {
+  --color-stone-50: #fafaf9;   /* Canvas background */
+  --color-stone-200: #e7e5e4;  /* Clean structural borders */
+  --color-stone-600: #57534e;  /* Body copy */
+  --color-stone-900: #1c1917;  /* Confident headers */
+  
+  --color-accent: #1e293b;       /* Crisp, slate-800 charcoal/blue */
+  --color-accent-hover: #0f172a; /* Deeper slate-900 */     
+}
+
+html {
+  scroll-behavior: smooth;
+}

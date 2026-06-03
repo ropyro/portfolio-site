@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ronin Richman | Systems & Web Development</title>
+    <!-- Link your tailwind entry file -->
+    <link rel="stylesheet" href="/src/css/style.css" />
+  </head>
+  <body class="bg-stone-50 text-stone-600 antialiased">
+    <div id="app" class="min-h-screen">
+      <nav class="border-b border-stone-200">
+        <div
+          class="mx-auto flex max-w-6xl items-center justify-between px-6 py-6 lg:px-8"
+        >
+          <a
+            href="#"
+            class="text-base font-bold text-stone-900 transition hover:text-accent focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-4 focus:ring-offset-stone-50"
+          >
+            Ronin Richman
+          </a>
+          <button
+            type="button"
+            class="inline-flex size-11 items-center justify-center border border-stone-200 text-stone-900 transition hover:border-stone-900 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-4 focus:ring-offset-stone-50 md:hidden"
+            aria-controls="mobile-menu"
+            aria-expanded="false"
+            aria-label="Toggle navigation menu"
+            data-menu-toggle
+          >
+            <span class="sr-only">Open navigation menu</span>
+            <span class="flex w-5 flex-col gap-1.5" aria-hidden="true">
+              <span class="h-px w-full bg-current"></span>
+              <span class="h-px w-full bg-current"></span>
+              <span class="h-px w-full bg-current"></span>
+            </span>
+          </button>
+          <div
+            class="hidden items-center gap-x-7 text-sm font-medium md:flex"
+          >
+            <a
+              href="#services"
+              class="text-stone-600 transition hover:text-stone-900 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-4 focus:ring-offset-stone-50"
+              >Services</a
+            >
+            <a
+              href="#work"
+              class="text-stone-600 transition hover:text-stone-900 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-4 focus:ring-offset-stone-50"
+              >Client Work</a
+            >
+            <a
+              href="#about"
+              class="text-stone-600 transition hover:text-stone-900 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-4 focus:ring-offset-stone-50"
+              >About</a
+            >
+            <a
+              href="#contact"
+              class="text-stone-600 transition hover:text-stone-900 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-4 focus:ring-offset-stone-50"
+              >Contact</a
+            >
+          </div>
+        </div>
+        <div
+          id="mobile-menu"
+          class="hidden border-t border-stone-200 md:hidden"
+          data-mobile-menu
+        >
+          <div class="mx-auto flex max-w-6xl flex-col px-6 py-4 text-sm font-medium">
+            <a
+              href="#services"
+              class="border-b border-stone-200 py-4 text-stone-600 transition hover:text-stone-900 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-4 focus:ring-offset-stone-50"
+              >Services</a
+            >
+            <a
+              href="#work"
+              class="border-b border-stone-200 py-4 text-stone-600 transition hover:text-stone-900 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-4 focus:ring-offset-stone-50"
+              >Client Work</a
+            >
+            <a
+              href="#about"
+              class="border-b border-stone-200 py-4 text-stone-600 transition hover:text-stone-900 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-4 focus:ring-offset-stone-50"
+              >About</a
+            >
+            <a
+              href="#contact"
+              class="py-4 text-stone-600 transition hover:text-stone-900 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-4 focus:ring-offset-stone-50"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <header class="border-b border-stone-200">
+          <div class="mx-auto max-w-6xl px-6 py-24 sm:py-32 lg:px-8">
+            <p
+              class="text-xs font-semibold uppercase tracking-wider text-stone-400"
+            >
+              Systems Developer &amp; Local Operator
+            </p>
+            <div class="mt-8 max-w-5xl">
+              <h1
+                class="text-4xl font-bold leading-tight text-stone-900 sm:text-5xl lg:text-6xl"
+              >
+                I run restaurant operations, study systems engineering, and keep
+                local Sonoma County websites flawless.
+              </h1>
+              <p class="mt-8 max-w-3xl text-lg leading-8 text-stone-600">
+                You don't have time to fight with an e-commerce platform or a
+                broken store locator. As a manager and developer, I know exactly
+                how much a broken site costs you. I handle the code; you run the
+                business.
+              </p>
+            </div>
+            <div class="mt-10 flex flex-col gap-3 sm:flex-row">
+              <a
+                href="#contact"
+                class="inline-flex min-h-12 items-center justify-center border border-stone-900 bg-stone-900 px-6 py-3 text-sm font-semibold text-stone-50 transition hover:bg-stone-700 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-4 focus:ring-offset-stone-50"
+              >
+                Fix My Website
+              </a>
+              <a
+                href="#work"
+                class="inline-flex min-h-12 items-center justify-center border border-stone-200 px-6 py-3 text-sm font-semibold text-stone-700 transition hover:border-stone-900 hover:text-stone-900 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-4 focus:ring-offset-stone-50"
+              >
+                View Client Work
+              </a>
+            </div>
+          </div>
+        </header>
+
+        <section id="services" class="border-b border-stone-200">
+          <div class="mx-auto max-w-6xl px-6 py-24 sm:py-32 lg:px-8">
+            <div class="max-w-3xl">
+              <h2 class="text-3xl font-bold text-stone-900 sm:text-4xl">
+                Engineered Services
+              </h2>
+              <p class="mt-4 text-lg leading-8 text-stone-600">
+                No confusing agency retainers. Clean, flat monthly or
+                single-engagement execution.
+              </p>
+            </div>
+
+            <div
+              class="mt-14 grid border-y border-stone-200 md:grid-cols-3 md:border-x"
+            >
+              <div
+                class="border-b border-stone-200 p-8 md:border-b-0 md:border-r"
+              >
+                <h3 class="text-lg font-bold text-stone-900">
+                  Menu &amp; Event Rotations
+                </h3>
+                <p class="mt-4 leading-7">
+                  New seasonal items? Holiday rush hours changing? I update your
+                  menus, products, and schedules instantly so customers never
+                  get wrong info.
+                </p>
+              </div>
+              <div
+                class="border-b border-stone-200 p-8 md:border-b-0 md:border-r"
+              >
+                <h3 class="text-lg font-bold text-stone-900">
+                  Emergency Code Surgery
+                </h3>
+                <p class="mt-4 leading-7">
+                  Broken forms, busted store locators, or layouts that look
+                  terrible on mobile. If it's broken, I’ll jump into the code
+                  and fix it today.
+                </p>
+              </div>
+              <div class="p-8">
+                <h3 class="text-lg font-bold text-stone-900">
+                  Speed &amp; Infrastructure Tune-Up
+                </h3>
+                <p class="mt-4 leading-7">
+                  If your site feels sluggish, it's losing you customers. I
+                  optimize asset loading, clean up messy databases, and make it
+                  load instantly.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="work" class="border-b border-stone-200">
+          <div class="mx-auto max-w-6xl px-6 py-24 sm:py-32 lg:px-8">
+            <h2 class="text-3xl font-bold text-stone-900 sm:text-4xl">
+              Local Deployments
+            </h2>
+            <div class="mt-12 border-t border-stone-200">
+              <article
+                class="grid gap-4 border-b border-stone-200 py-8 md:grid-cols-[1fr_1fr_2fr] md:items-start"
+              >
+                <h3 class="text-xl font-bold text-stone-900">
+                  East Kennedy Co.
+                </h3>
+                <p
+                  class="text-sm font-semibold uppercase tracking-wider text-stone-500"
+                >
+                  Retail E-commerce
+                </p>
+                <p class="leading-7">
+                  Rebuilt full store inventory sync, lowering bounce rates by
+                  22% and keeping product availability accurate across customer
+                  touchpoints.
+                </p>
+              </article>
+              <article
+                class="grid gap-4 border-b border-stone-200 py-8 md:grid-cols-[1fr_1fr_2fr] md:items-start"
+              >
+                <h3 class="text-xl font-bold text-stone-900">
+                  Woodland Mysticz
+                </h3>
+                <p
+                  class="text-sm font-semibold uppercase tracking-wider text-stone-500"
+                >
+                  Local Artisan Shop
+                </p>
+                <p class="leading-7">
+                  Refined mobile product discovery, repaired checkout friction,
+                  and tightened page structure for faster browsing during busy
+                  seasonal traffic.
+                </p>
+              </article>
+              <article
+                class="grid gap-4 border-b border-stone-200 py-8 md:grid-cols-[1fr_1fr_2fr] md:items-start"
+              >
+                <h3 class="text-xl font-bold text-stone-900">
+                  Sonoma Service Operator
+                </h3>
+                <p
+                  class="text-sm font-semibold uppercase tracking-wider text-stone-500"
+                >
+                  Hospitality Operations
+                </p>
+                <p class="leading-7">
+                  Audited location data, event hours, and contact flows so
+                  customers could find current details without calling during
+                  peak service windows.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="border-b border-stone-200">
+          <div
+            class="mx-auto grid max-w-6xl gap-12 px-6 py-24 sm:py-32 lg:grid-cols-[1.1fr_0.9fr] lg:px-8"
+          >
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900 sm:text-4xl">
+                The Operator behind the Code
+              </h2>
+              <div class="mt-8 space-y-6 text-lg leading-8">
+                <p>
+                  I manage operations at Vinoma Tapas Argentinas, where every
+                  shift is a live system: inventory, staffing, service timing,
+                  guest expectations, and the details that decide whether a
+                  night runs clean.
+                </p>
+                <p>
+                  In computer science, I analyze data structures and build
+                  software with the same respect for flow, failure points, and
+                  maintainability. That mix gives local businesses someone who
+                  understands the code and the cost of a broken customer path.
+                </p>
+                <p>
+                  Away from the screen, I bake sourdough and hike Crane Creek
+                  with my grandmother. I like work that is practical, patient,
+                  and useful in the real world.
+                </p>
+              </div>
+            </div>
+
+            <aside class="border border-stone-200 bg-stone-50">
+              <div class="border-b border-stone-200 px-6 py-4">
+                <p
+                  class="text-sm font-semibold uppercase tracking-wider text-stone-500"
+                >
+                  Tool Stack
+                </p>
+              </div>
+              <div
+                class="space-y-4 px-6 py-6 font-mono text-sm leading-7 text-stone-700"
+              >
+                <p>
+                  <span class="text-accent">ronin@local</span>:~$ stack --list
+                </p>
+                <ul class="space-y-2">
+                  <li>Java</li>
+                  <li>Spigot/Paper API</li>
+                  <li>Tailwind CSS</li>
+                  <li>Native JS</li>
+                  <li>SQLite/MySQL</li>
+                </ul>
+                <p class="border-t border-stone-200 pt-4 text-stone-500">
+                  status: ready for practical fixes
+                </p>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <section id="contact" class="py-24 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold text-stone-900 mb-2">Direct Line</h2>
+          <p class="text-stone-600 mb-12">
+            No gatekeepers or complex ticketing. Let's look at your site
+            together.
+          </p>
+
+          <form
+            id="contact-form"
+            action="https://formsubmit.co/roninrichman@gmail.com"
+            method="POST"
+            class="max-w-2xl mx-auto space-y-6"
+          >
+            <input type="text" name="_honey" class="hidden" />
+            <input
+              type="hidden"
+              name="_subject"
+              value="New Portfolio Site Project Inquiry"
+            />
+            <input type="hidden" name="_captcha" value="false">
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label
+                  for="name"
+                  class="block text-xs font-semibold uppercase tracking-wider text-stone-900 mb-2"
+                  >Your Name</label
+                >
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  required
+                  class="w-full bg-stone-50 border border-stone-200 p-3 text-stone-900 font-medium rounded-none focus:border-stone-900 focus:outline-none transition-colors"
+                />
+              </div>
+              <div>
+                <label
+                  for="business"
+                  class="block text-xs font-semibold uppercase tracking-wider text-stone-900 mb-2"
+                  >Business Name</label
+                >
+                <input
+                  type="text"
+                  name="business"
+                  id="business"
+                  required
+                  class="w-full bg-stone-50 border border-stone-200 p-3 text-stone-900 font-medium rounded-none focus:border-stone-900 focus:outline-none transition-colors"
+                />
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label
+                  for="email"
+                  class="block text-xs font-semibold uppercase tracking-wider text-stone-900 mb-2"
+                  >Email Address</label
+                >
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  class="w-full bg-stone-50 border border-stone-200 p-3 text-stone-900 font-medium rounded-none focus:border-stone-900 focus:outline-none transition-colors"
+                />
+              </div>
+              <div>
+                <label
+                  for="url"
+                  class="block text-xs font-semibold uppercase tracking-wider text-stone-900 mb-2"
+                  >Current Website URL (Optional)</label
+                >
+                <input
+                  type="url"
+                  name="website"
+                  id="url"
+                  placeholder="https://example.com"
+                  class="w-full bg-stone-50 border border-stone-200 p-3 text-stone-900 font-medium rounded-none focus:border-stone-900 focus:outline-none transition-colors placeholder:text-stone-300"
+                />
+              </div>
+            </div>
+
+            <div>
+              <label
+                for="message"
+                class="block text-xs font-semibold uppercase tracking-wider text-stone-900 mb-2"
+                >What is currently broken or needs optimization?</label
+              >
+              <textarea
+                name="message"
+                id="message"
+                rows="5"
+                required
+                class="w-full bg-stone-50 border border-stone-200 p-3 text-stone-900 font-medium rounded-none focus:border-stone-900 focus:outline-none transition-colors resize-y"
+              ></textarea>
+            </div>
+
+            <div>
+              <button
+                type="submit"
+                id="submit-btn"
+                class="w-full bg-accent hover:bg-accent-hover text-stone-50 font-semibold uppercase tracking-wider text-xs py-4 transition-colors duration-200 cursor-pointer"
+              >
+                Request a System Audit
+              </button>
+            </div>
+          </form>
+
+          <!-- Native UI Success Message (Hidden by default via 'hidden') -->
+          <div
+            id="success-message"
+            class="hidden max-w-2xl mx-auto border border-stone-200 p-8 text-center bg-stone-50"
+          >
+            <h3 class="text-lg font-bold text-stone-900 mb-2">
+              Audit Request Received
+            </h3>
+            <p class="text-sm text-stone-600">
+              Your details have bypassed the queue and piped directly into my
+              system. I'll analyze your current footprint and reach out shortly.
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>
